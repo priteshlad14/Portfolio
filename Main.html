@@ -1,16 +1,45 @@
 <html>
     <style>
         .header {
-            position: absolute;
+            position: fixed;
+            z-index: 1000;
             left: 0;
             top: 0;
             background-color: aquamarine;
             width: 100%;
-             }
+            padding: 10px;
+         }
+         .container{
+             margin-top: 80px;
+             position: absolute;
+             width: 100%;
+             left: 0;
+             background-color: blueviolet;
+         }
+         .footer{            
+             width: 100%;
+             left: 0;
+             background-color: rgb(43, 226, 52);
+             padding: 10px;
+         }
     </style>
     <body>
-        <div class="header">
-        <h1>My First HTML new</h1>
-       </div>
+        <div>
+        <header class="header">
+            <h2>PRITESHKUMAR RRGHUBHAI LAD</h2>
+        </header>
+        <div class="container">
+            <div style="padding: 10px;">
+                <p>Container</p>
+                <p>Container</p>
+                <p>Container</p>
+                <p>Container</p>          
+            </div>
+            <footer class="footer">
+                <span>some text</span>
+            </footer>
+    </div>
+       
+    </div>
     </body>
 </html>

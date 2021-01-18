@@ -22,3 +22,9 @@
      background-color: rgb(43, 226, 52);
      padding: 10px;
  }
+
+ .margin0{
+     margin: 0 0 0 0;
+ }
+
+ ol li{margin-bottom:20px;}
